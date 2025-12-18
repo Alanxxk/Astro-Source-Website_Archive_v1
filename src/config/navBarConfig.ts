@@ -39,7 +39,20 @@ const getDynamicNavBarConfig = (): NavBarConfig => {
         external: true,
         icon: "simple-icons:zhihu",
       },
+      //网盘
+      //OneDrive
+      //google drive
+      //永硕
+      //坚果云
+      //腾讯微云
+      //Dropbox
       //外网—学术
+      {
+        name: "Stack Overflow",
+        url: "https://stackoverflow.com/users/32066616/xxk-xxk?tab=profile",
+        external: true,
+        icon: "simple-icons:stackoverflow",
+      },
       {
         name: "GitHub",
         url: "https://github.com/Alanxxk",
@@ -69,7 +82,7 @@ const getDynamicNavBarConfig = (): NavBarConfig => {
         name: "Instagram",
         url: "https://www.instagram.com/xxk7680/",
         external: true,
-        icon: "fa6-brands:instagram",
+        icon: "simple-icons:instagram",
       },
       {
         name: "Snapchat",
@@ -118,7 +131,7 @@ const getDynamicNavBarConfig = (): NavBarConfig => {
       },
       // {
       //   name: "LinkedIn",
-      //   url: "mailto:377329149@qq.com?subject=网站联系&body=你好，我从网站了解到...",
+      //   url: "mailto:Alan_xxk@foxmail.com?subject=网站联系&body=你好，我从网站了解到...",
       //   external: true,
       //   icon: "fa6-brands:linkedin",
       // },

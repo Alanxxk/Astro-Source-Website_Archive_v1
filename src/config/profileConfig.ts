@@ -8,7 +8,12 @@ export const profileConfig: ProfileConfig = {
     {
       name: "QQ Mail",
       icon: "fa6-solid:envelope",
-      url: "mailto:377329149@qq.com?subject=网站联系&body=你好，我从网站了解到...",
+      url: "mailto:Alan_xxk@foxmail.com?subject=网站联系&body=你好，我从网站了解到...",
+    },
+    {
+      name: "RSS",
+      icon: "fa6-solid:rss",
+      url: "/rss/",
     },
     {
       name: "Gmail",
@@ -21,14 +26,14 @@ export const profileConfig: ProfileConfig = {
       url: "mailto:Alan_xxk@outlook.com?subject=网站联系&body=你好，我从网站了解到...",
     },
     {
+      name: "Proton Mail",
+      icon: "simple-icons:proton",
+      url: "mailto:Alan_xxk@proton.me?subject=网站联系&body=你好，我从网站了解到...",
+    },
+    {
       name: "Telegram",
       icon: "fa6-brands:telegram",
       url: "https://web.telegram.org/a/#5163711212",
-    },
-    {
-      name: "RSS",
-      icon: "fa6-solid:rss",
-      url: "/rss/",
     },
   ],
 };

@@ -46,7 +46,7 @@
 如果你想和我交流技术问题，分享有趣的想法，或者只是想打个招呼，欢迎通过以下方式联系我：
 
 - 🐱 **GitHub**：[Alanxxk](https://github.com/Alanxxk)
-- 🐧 **QQ Mail**：[377329149@qq.com](mailto:377329149@qq.com)
+- 🐧 **QQ Mail**：[Alan_xxk@foxmail.com](mailto:Alan_xxk@foxmail.com)
 - 🗺️ **Gmail**：[alan.xxk.mikasa@gmail.com](mailto:alan.xxk.mikasa@gmail.com)
 - 🪟 **Outlook**：[Alan_xxk@outlook.com](mailto:Alan_xxk@outlook.com)
 - ✈️ **Telegram**：[Telegram](https://web.telegram.org/a/#5163711212)

@@ -1,0 +1,424 @@
+---
+title: Windows软件安装               #标题
+description: Windows新电脑必装软件介绍  #描述
+draft: false                        #草稿未发布
+published: 2025-12-05               #发布时间
+updated: 2025-12-05                 #更新时间
+pinned: true                        #置顶
+tags: [Windows, Software, Crack]    #标签
+category: "推荐软件"                 #类别（使用文件夹名称）
+slug: Windows软件安装                #自定义链接（使用标题名称）
+
+sourceLink: "https://github.com/Alanxxk/Windows_Software_Kit"    #原链接
+author: Alan_xxk                    #作者
+licenseName: "CC BY-NC-SA 4.0"      #许可证名称
+image: "api"                        #随机封面 “image: ./cover.jpg”
+# date: 2025-12-05                  #创建时间(无显示)
+---
+
+# 0.目录
+- [0.目录](#0目录)
+- [1.功能增强](#1功能增强)
+  - [1.1.HiBit Uninstaller卸载软件](#11hibit-uninstaller卸载软件)
+  - [1.2.Dism++清理垃圾](#12dism清理垃圾)
+  - [1.3.Google拼音输入](#13google拼音输入)
+  - [1.4.Sandboxie沙盒测试](#14sandboxie沙盒测试)
+  - [1.5.Winrar压缩软件](#15winrar压缩软件)
+  - [1.6.LocalSend局域传输](#16localsend局域传输)
+  - [1.7.EasyShare互传](#17easyshare互传)
+  - [1.8.UU远程](#18uu远程)
+  - [1.9.Coodesker桌面整理](#19coodesker桌面整理)
+  - [1.10.TranslucentTB任务栏美化](#110translucenttb任务栏美化)
+  - [1.11.Pixpin截图标记](#111pixpin截图标记)
+  - [1.12.Quicker快工具箱](#112quicker快工具箱)
+  - [1.13.Folo消息聚合](#113folo消息聚合)
+- [2.翻墙软件](#2翻墙软件)
+  - [2.1.Clash for Windows](#21clash-for-windows)
+  - [2.2.Clash Meta](#22clash-meta)
+  - [2.3.Clash Verge](#23clash-verge)
+  - [2.4.V2rayN](#24v2rayn)
+- [3.学习辅助](#3学习辅助)
+  - [3.1.Eudic欧路词典](#31eudic欧路词典)
+  - [3.2.Anki卡片背诵](#32anki卡片背诵)
+  - [3.3.VScode编辑器](#33vscode编辑器)
+  - [3.4.ReadPaper论文管理](#34readpaper论文管理)
+  - [3.5.Git](#35git)
+  - [3.6.GitKraken](#36gitkraken)
+  - [3.7.SiYuan笔记](#37siyuan笔记)
+  - [3.8.Beyond Compare文件对比](#38beyond-compare文件对比)
+- [4.媒体管理](#4媒体管理)
+  - [4.1.Anytxt内容查找](#41anytxt内容查找)
+  - [4.2.Everything文件查找](#42everything文件查找)
+  - [4.3.HoneyView图片查看](#43honeyview图片查看)
+  - [4.4.OBS Studio录屏直播](#44obs-studio录屏直播)
+  - [4.5.Potplayer视频播放](#45potplayer视频播放)
+  - [4.6.PureCode视频播放](#46purecode视频播放)
+  - [4.7.MpvConfig视频播放](#47mpvconfig视频播放)
+  - [4.8.LXmusic在线音乐](#48lxmusic在线音乐)
+  - [4.9.Foobar音乐播放](#49foobar音乐播放)
+  - [4.10.MusicTag乐标补全](#410musictag乐标补全)
+  - [4.11.NeatDM嗅探下载](#411neatdm嗅探下载)
+  - [4.12.Wiztree磁盘管理](#412wiztree磁盘管理)
+  - [4.13.Billfish素材管理](#413billfish素材管理)
+  - [4.14.QuickLook文件快看](#414quicklook文件快看)
+  - [4.15.VidBee视频下载](#415vidbee视频下载)
+  - [4.16.qBittorrent磁链种子](#416qbittorrent磁链种子)
+  - [4.17.Motrix磁链种子](#417motrix磁链种子)
+  - [4.18.Kdenlive视频剪辑](#418kdenlive视频剪辑)
+- [5.按键显示](#5按键显示)
+  - [5.1.BongoCat桌宠](#51bongocat桌宠)
+  - [5.2.Keyviz按键](#52keyviz按键)
+  - [5.3.NohBoard键盘](#53nohboard键盘)
+  - [5.4.PowerToy鼠标](#54powertoy鼠标)
+- [6.游戏工具](#6游戏工具)
+  - [6.1.Controller Companion手柄转键](#61controller-companion手柄转键)
+  - [6.2.MSI Afterburner监控硬件](#62msi-afterburner监控硬件)
+  - [6.3.Steam++商店加速](#63steam商店加速)
+  - [6.4.SteamCommunity302商店加速](#64steamcommunity302商店加速)
+  - [6.5.MuMu模拟器](#65mumu模拟器)
+  - [6.6.Soundpad音效播放](#66soundpad音效播放)
+  - [6.7.Flash Browser浏览器](#67flash-browser浏览器)
+- [7.新机测试](#7新机测试)
+  - [7.1.CPU-Z处理器信息](#71cpu-z处理器信息)
+  - [7.2.GPU-Z显卡信息](#72gpu-z显卡信息)
+  - [7.3.CrystalDiskInfo硬盘信息](#73crystaldiskinfo硬盘信息)
+  - [7.4.CrystalDiskMark硬盘速度](#74crystaldiskmark硬盘速度)
+  - [7.5.DiskGenius硬盘设置](#75diskgenius硬盘设置)
+  - [7.6.Ventoy制作U盘](#76ventoy制作u盘)
+  - [7.7.WinToGo移动系统](#77wintogo移动系统)
+  - [7.8.FixWin修复错误](#78fixwin修复错误)
+  - [7.9.Office Tool Plus一键破解](#79office-tool-plus一键破解)
+  - [7.10.Kaspersky卡巴杀毒](#710kaspersky卡巴杀毒)
+- [8.网络云盘](#8网络云盘)
+  - [8.1.百度网盘](#81百度网盘)
+  - [8.2.阿里云盘](#82阿里云盘)
+  - [8.3.夸克网盘](#83夸克网盘)
+  - [8.4.123云盘](#84123云盘)
+  - [8.5.蓝奏云](#85蓝奏云)
+  - [8.6.迅雷云盘](#86迅雷云盘)
+  - [8.7.UC云盘](#87uc云盘)
+  - [8.8.腾讯微云](#88腾讯微云)
+  - [8.9.坚果云](#89坚果云)
+
+# 1.功能增强
+## 1.1.HiBit Uninstaller卸载软件
+## 1.2.Dism++清理垃圾
+## 1.3.Google拼音输入
+## 1.4.Sandboxie沙盒测试
+- ***名称***：Sandboxie
+- ***作用***：创建沙箱空间安全运行软件或程序
+- ***版本***：5.71.8（编辑日期2025.12.05+经常更新）
+- ***链接***：无
+- ***优势***：（相比其他同类型软件的优点）
+- ***安装***：选择语言，选择安装目录
+- ***设置***：点击“配置-系统设置”按钮，取消勾选“启动Sandboxie Control”和“快捷方式图标”和“在沙箱中运行菜单”，在开始菜单找到`Sandboxie Control`并创建快捷方式
+- ***使用***：
+## 1.5.Winrar压缩软件
+- ***名称***：Winrar
+- ***作用***：压缩文件和解压压缩包
+- ***版本***：11.6.0（编辑日期2025.12.05+经常更新）
+- ***链接***：无
+- ***优势***：（相比其他同类型软件的优点）
+- ***安装***：
+- ***设置***：
+  1. **破解**：在打开压缩包界面时不再弹出广告。[]()
+  2. **备用破解**：https://zhuanlan.zhihu.com/p/1939816269000978726，https://tieba.baidu.com/p/10027399342，https://www.cnblogs.com/Gantz/p/17692420.html，https://www.bilibili.com/opus/1096004894372921365，https://blog.csdn.net/SUSU769/article/details/150513434，https://zhuanlan.zhihu.com/p/692561504，https://cloud.tencent.com/developer/article/2583936，https://www.bilibili.com/video/BV1efeGzcE7r/?vd_source=c9864b89dea103396edbd37a5b5133af，https://blog.csdn.net/wzk1681106/article/details/151179380
+- ***使用***：
+## 1.6.LocalSend局域传输
+## 1.7.EasyShare互传
+## 1.8.UU远程
+## 1.9.Coodesker桌面整理
+## 1.10.TranslucentTB任务栏美化
+## 1.11.Pixpin截图标记
+## 1.12.Quicker快工具箱
+- ***名称***：Quicker
+- ***作用***：提供动作库便于快捷操作
+- ***版本***：4.31.0（编辑日期2025.12.05+经常更新）
+- ***链接***：https://getquicker.net/Download
+- ***优势***：（相比其他同类型软件的优点）
+- ***安装***：点击.msi文件，自动安装到C盘，打开`C:\Program Files\Quicker`文件夹找到.exe文件并创建快捷方式
+- ***设置***：在“弹出面板”设置“按下X1键”（鼠标后侧键），在“轮盘菜单”设置“触发按键X2”（鼠标前侧键），在“鼠标手势”设置“触发按键中键”（鼠标中键）
+- ***使用***：按下<kbd>鼠标前侧键</kbd>弹出轮盘，按下<kbd>Ctrl</kbd>或<kbd>鼠标后侧键</kbd>弹出面板，按下<kbd>鼠标中键</kbd>进行鼠标手势
+## 1.13.Folo消息聚合
+- ***名称***：Folo
+- ***作用***：通过订阅RSS实现一个软件聚合需要的信息，拒绝各类软件的推荐算法浪费无意义时间
+- ***版本***：1.2.3（编辑日期2025.12.05+经常更新）
+- ***链接***：https://github.com/RSSNext/Folo/releases
+- ***优势***：（相比其他同类型软件的优点）
+- ***安装***：点击.exe文件，自动安装到C盘
+- ***设置***：登陆账号，设置简体中文语言
+- ***使用***：
+# 2.翻墙软件
+## 2.1.Clash for Windows
+## 2.2.Clash Meta
+## 2.3.Clash Verge
+## 2.4.V2rayN
+# 3.学习辅助
+## 3.1.Eudic欧路词典
+- ***名称***：欧路词典
+- ***作用***：导入自定义词典并查词学习英语
+- ***版本***：25.8.0（编辑日期2025.12.05+经常更新）
+- ***链接***：https://www.eudic.net/v4/en/app/download
+- ***优势***：（相比其他同类型软件的优点）
+- ***安装***：选择安装路径
+- ***设置***：
+  1. **软件设置**：勾选“关闭窗口时最小化到状态栏”，勾选“自动查询剪贴板内单词”，勾选“输入单词时即时提示解释”，选择“词库自动展开数目”是“所有词典”，勾选“查找单词后自动发音”，勾选“鼠标取词后自动发音”，取词方式选择“鼠标悬停+Ctrl”，取词延时输入1，选择“关闭自动更新”
+  2. **词库管理**：点击“词库管理”-“安装词库”-“选择文件夹”，调整“鼠标取词词库”顺序
+  3. **新版破解**：破解后可以导入更多词典和使用暗色主题。关闭软件，打开安装目录,移动破解文件夹里面的`version.dll`到安装目录，点击`cracked.reg`文件，打开软件后关闭自动更新和点击软件激活
+  4. **旧版破解**：旧版本。[根据破解论坛里面](https://forum.freemdict.com/t/topic/28687/214)的[159楼层](https://www.mediafire.com/folder/6nr2167qw1xaz/DLs)和[186楼层](https://pan.baidu.com/s/1vENYpF1nQqQ5PyNf8-WwEg?pwd=sn64)和[<u>216楼层</u>](https://gofile.io/d/cyml9J)和[227楼层](https://pan.baidu.com/share/init?surl=q_a5V8UDW3cEOpbsWKmA1g):spoiler[yuml]，[Youtube教学视频](https://www.youtube.com/watch?v=e62Fii9i6dk)。在安装欧路词典后，打开破解文件夹，点击`eudic-active.reg`注册表文件，删除eudic.exe并移动`eudic-active.exe`文件到欧路词典安装目录，打开`eudic-active.exe`文件，关闭自动更新和点击软件激活
+  5. **备用破解**：未尝试过。[Github-EudicPro](https://github.com/Veinsvx/eudicPro)，[Mdict论坛](https://www.pdawiki.com/forum/thread-41281-1-1.html)，[IT技术之家](https://www.ittel.cn/archives/29610.html)，[亿破姐](https://www.ypojie.com/10149.html)
+- ***使用***：
+## 3.2.Anki卡片背诵
+## 3.3.VScode编辑器
+## 3.4.ReadPaper论文管理
+## 3.5.Git
+## 3.6.GitKraken
+- ***名称***：Gitkraken
+- ***作用***：可视化管理Git仓库版本
+- ***版本***：11.6.0（编辑日期2025.12.05+经常更新）
+- ***链接***：https://www.gitkraken.com/
+- ***优势***：（相比其他同类型软件的优点）
+- ***安装***：点击.exe文件，自动安装到C盘，打开`C:\Users\用户名\AppData\Local\gitkraken`文件夹找到.exe文件并创建快捷方式
+- ***设置***：
+  1. **屏蔽更新**：推荐无代理网络中安装GitKraken，可以避免GitKraken为更新自动添加代理地址。[根据屏蔽教程](https://github.com/wanZzz6/Modules-Learn/blob/master/%E6%8A%80%E6%9C%AF/Gitkraken%20%E6%9C%80%E6%96%B0%E7%89%88v9%E3%80%81v10%E7%A0%B4%E8%A7%A3%E6%95%99%E7%A8%8B.md)。关闭软件，按下<kbd>Win</kbd>+<kbd>R</kbd>打开运行窗口，输入`cmd`，按下<kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>Enter</kbd>以管理员权限打开终端(或<kbd>Win</kbd>+<kbd>X</kbd>选择终端管理员)，通过`cd`指令进入`C:\Windows\System32\drivers\etc`目录，输入`notepad hosts`，写入屏蔽内容后保存文件。验证方法是打开hosts文件(是有`This is a sample HOSTS file used by Microsoft TCP/IP for Windows.`内容的文件)，并确认写入了屏蔽内容，然后在终端中输入`ping release.gitkraken.com`显示返回超时
+    ```
+      # 屏蔽 GitKraken 更新与连接
+      0.0.0.0 release.gitkraken.com
+      0.0.0.0 api.gitkraken.com
+      0.0.0.0 gloapi.gitkraken.com
+      0.0.0.0 release.axocdn.com
+    ```
+  2. **破解**：破解后私人仓库也可以推拉。[根据破解教程](https://github.com/wanZzz6/Modules-Learn/blob/master/%E6%8A%80%E6%9C%AF/Gitkraken%20%E6%9C%80%E6%96%B0%E7%89%88v9%E3%80%81v10%E7%A0%B4%E8%A7%A3%E6%95%99%E7%A8%8B.md)。关闭软件，输入cmd打开终端，输入`npm install --global yarn`，(可随便移动)移动破解文件夹里面的`GitkrakenCrack`文件夹到`C:\Users\用户名\AppData\Local\gitkraken`后打开，打开终端输入`yarn install`、`yarn build`和`yarn gitcracken patcher`，等待破解完成后可以删除`GitkrakenCrack`文件夹。验证方法是打开GitKraken软件，查看右下角是否为PRO  
+  3. **汉化**：[根据汉化教程](https://github.com/yk47g/gitkraken-chinese)。关闭软件，移动汉化文件夹到`C:\Users\用户名\AppData\Local\gitkraken\app-11.6.0\resources\app.asar.unpacked\src`目录替代原`strings.json`。验证方法是打开GitKraken软件后显示中文
+- ***使用***：
+## 3.7.SiYuan笔记
+- ***名称***：Beyond Compare
+- ***作用***：对比两个文件内容显示不同
+- ***版本***：5.0.0.29773（编辑日期2025.12.05+缓慢更新）
+- ***链接***：无
+- ***优势***：（相比其他同类型软件的优点）
+- ***安装***：
+- ***设置***：
+  1. **软件设置**：
+  2. **按键设置**：<kbd>Ctrl</kbd>+<kbd>±</kbd>调整界面大小
+- ***使用***：
+## 3.8.Beyond Compare文件对比
+- ***名称***：Beyond Compare
+- ***作用***：对比两个文件内容显示不同
+- ***版本***：5.0.0.29773（编辑日期2025.12.05+缓慢更新）
+- ***链接***：无
+- ***优势***：（相比其他同类型软件的优点）
+- ***安装***：
+- ***设置***：
+  1. **破解**：[百度网盘](https://blog.csdn.net/weixin_48232001/article/details/145106869)
+  2. **备用破解**：[百度网盘](https://blog.csdn.net/pfl_327/article/details/148414872)，[夸克网盘](https://blog.csdn.net/qq_28012895/article/details/143781849)
+- ***使用***：
+# 4.媒体管理
+## 4.1.Anytxt内容查找
+## 4.2.Everything文件查找
+- ***名称***：Everything
+- ***作用***：快速查找文件
+- ***版本***：1.4.1.1030（编辑日期2025.12.05+经常更新）
+- ***链接***：https://www.gitkraken.com/
+- ***优势***：（相比其他同类型软件的优点）
+- ***安装***：选择安装路径，取消勾选“开机自动启动”，其他默认
+- ***设置***：无
+- ***使用***：输入文件/文件夹名称可以快速搜索，双击可以打开
+## 4.3.HoneyView图片查看
+- ***名称***：HoneyView
+- ***作用***：打开图片工具
+- ***版本***：5.53（编辑日期2025.12.16+经常更新）
+- ***链接***：https://www.bandisoft.com/honeyview/
+- ***优势***：快速打开图片（[ImageGlass](https://imageglass.org/releases):能对图片进行更多处理,程序较美观,但是不能设置为默认打开方式）
+- ***安装***：选择安装路径，勾选三个选项
+- ***设置***：打开win11的“设置”界面，进入“应用-默认应用-Honeyview”，把所有格式都改为由Honeyview打开
+- ***使用***：输入文件/文件夹名称可以快速搜索，双击可以打开
+## 4.4.OBS Studio录屏直播
+- ***名称***：OBS Studio
+- ***作用***：快速查找文件
+- ***版本***：（编辑日期2025.12.05+经常更新）
+- ***链接***：
+- ***优势***：（相比其他同类型软件的优点）
+- ***安装***：
+- ***设置***：
+  1. **软件设置**：
+  2. **扩展插件**：
+    - Live2D（Prprlive）人物模型显示：
+    - Input-Overplay或Bongobs键鼠显示或StreamUP Hotkey Display软件按键显示：
+    - Animated Lower Thirds弹窗显示：
+    - Echo Live或VTypewriter文字显示：
+    - Spectralizer频谱或Waveform时间音量的音频可视化显示：
+    - Websocket网页远程控制：
+    - Move场景元素移动动画或Transition Table切换场景动画：
+    - Advanced Scene Switcher自动切换场景：
+    - StreamFX或FreeFX或Composite Blur（Ashmanix Blur Filter）或Stroke Glow Shadow界面模糊阴影等：
+    - Live Background Removal Lite（Background Removal）摄像头去背景扣人像：
+    - Win-capture-audio应用音频选播：
+    - Source Record单独录制源或Source Clone复制源和Source Copy复制源配置和Source Switcher自动切换源和Source Dock源控制：
+    - Replay Source（Instant Replay）即时回放：
+    - Ashmanix Countdown Timer（Simple Countdown Timer）倒计时窗口：
+    - Multiple RTMP outputs plugin（Aitum Multistream）多平台推流：
+    - LocalVocal（Auto Subtitle）实时字幕：
+    - Tuna或Now Playing（B站）音乐信息显示：
+    - Soundboard Dock音效播放：
+    - InfoWriter记录时间点和StreamUP Chapter Marker Manager记录章节：
+    - Draw画笔标注：
+    - Obs-text-slideshow轮播文本或Markdown Source文本语法：
+    - Scene Notes Dock场景备注：
+    - Encoder ROI Editor场景清晰权重：
+    - Scrab截图：
+    - Durchblick导播多画面：
+- ***使用***：
+## 4.5.Potplayer视频播放
+## 4.6.PureCode视频播放
+## 4.7.MpvConfig视频播放
+## 4.8.LXmusic在线音乐
+- ***名称***：LXmusic
+- ***作用***：在线听各平台音乐
+- ***版本***：（编辑日期2025.12.05+缓慢更新）
+- ***链接***：
+- ***优势***：（相比其他同类型软件的优点）
+- ***安装***：
+- ***设置***：
+  1. **音源**：[](https://github.com/sundys/lxmusiclist),[](https://fastly.jsdelivr.net/gh/Huibq/keep-alive/render_api.js),[](https://github.com/piko017/-LX-luoxue_yinyuan/diffs/1?base_sha=6b35139b917e83ca770894406562d8e7c38b8c50&head_user=2061360308&name=master&pull_number=3&qualified_name=refs%2Fheads%2Fmaster&sha1=6b35139b917e83ca770894406562d8e7c38b8c50&sha2=f0e2cee0c021c17877b6d27646af70a4f2d9fe91&short_path=b335630&unchanged=expanded&w=false),[](https://github.com/wzh15802/lxmusic),[](https://github.com/lyswhut/lx-music-desktop/issues/1769)
+- ***使用***：
+## 4.9.Foobar音乐播放
+## 4.10.MusicTag乐标补全
+## 4.11.NeatDM嗅探下载
+- ***名称***：NeatDM
+- ***作用***：网页资源嗅探并直接下载和接管浏览器下载并加速
+- ***版本***：1.4（编辑日期2025.12.05+缓慢更新）
+- ***链接***：https://www.neatdownloadmanager.com/index.php/en/
+- ***优势***：（相比其他同类型软件的优点）
+- ***安装***：勾选创建桌面快捷方式，选择安装路径
+- ***设置***：打开软件的设置按钮，更改下载和临时目录，取消勾选开机自启动。打开浏览器安装`NeatDownloadManager Extension`扩展
+- ***使用***：
+## 4.12.Wiztree磁盘管理
+- ***名称***：Wiztree
+- ***作用***：分析磁盘或文件夹内容的占用空间大小
+- ***版本***：4.28（编辑日期2025.12.05+缓慢更新）
+- ***链接***：https://www.diskanalyzer.com/download
+- ***优势***：（相比其他同类型软件的优点）
+- ***安装***：勾选创建桌面快捷方式，选择安装路径
+- ***设置***：
+- ***使用***：
+## 4.13.Billfish素材管理
+## 4.14.QuickLook文件快看
+- ***名称***：QuickLook
+- ***作用***：快速查看文件内容
+- ***版本***：4.2.2（编辑日期2025.12.05+经常更新/缓慢更新/停止更新）
+- ***链接***：https://github.com/QL-Win/QuickLook/releases
+- ***优势***：（相比其他同类型软件的优点）
+- ***安装***：选择安装路径
+- ***设置***：无
+- ***使用***：
+## 4.15.VidBee视频下载
+- ***名称***：VidBee
+- ***作用***：下载
+- ***版本***：（编辑日期2025.12.05+经常更新/缓慢更新/停止更新）
+- ***链接***：https://vidbee.org/
+- ***优势***：下载视频网站的视频：B站最高支持1080P高码率，YouTube最高支持4K
+- ***安装***：选择安装路径
+- ***设置***：无
+- ***使用***：
+## 4.16.qBittorrent磁链种子
+- ***名称***：qBittorrent
+- ***作用***：快速查看文件内容
+- ***版本***：（编辑日期2025.12.05+经常更新/缓慢更新/停止更新）
+- ***链接***：https://www.qbittorrent.org/（增强版：https://github.com/c0re100/qBittorrent-Enhanced-Edition）
+- ***优势***：下载连接快但速度一般，下载内存占用相对较大，做种内存占用相对较小（内存占用最小的是Transmission）（增强版——防迅雷吸血和自动更新Tracker但无法用于大部分PT站）
+- ***安装***：选择安装路径
+- ***设置***：无
+- ***使用***：
+## 4.17.Motrix磁链种子
+- ***名称***：Motrix
+- ***作用***：磁链下载和替代迅雷下载，可以接管浏览器下载
+- ***版本***：1.8.19（编辑日期2025.12.05+经常更新/缓慢更新/停止更新）
+- ***链接***：https://motrix.app/download
+- ***优势***：下载连接慢但速度快，下载内存占用相对较小，做种内存占用相对较大
+- ***安装***：选择安装路径
+- ***设置***：设置下载目录，“下载协议”勾选迅雷链接
+- ***使用***：
+## 4.18.Kdenlive视频剪辑
+- ***名称***：Kdenlive
+- ***作用***：剪辑视频，添加音频，制作特效
+- ***版本***：25.08.3（编辑日期2025.12.05+经常更新/缓慢更新/停止更新）
+- ***链接***：https://kdenlive.org/zh-cn/download/
+- ***优势***：免费可商用，占用小，功能相对较强
+- ***安装***：选择安装路径，在安装目录找到.exe文件并创建快捷方式
+- ***设置***：
+- ***使用***：
+# 5.按键显示
+## 5.1.BongoCat桌宠
+
+## 5.2.Keyviz按键
+## 5.3.NohBoard键盘
+## 5.4.PowerToy鼠标
+# 6.游戏工具
+## 6.1.Controller Companion手柄转键
+## 6.2.MSI Afterburner监控硬件
+- ***名称***：MSI Afterburner
+- ***作用***：调节风扇速度，监控并显示硬件状态和帧数
+- ***版本***：4.6.6（编辑日期2025.12.05+经常更新）
+- ***链接***：https://www.msi.com/Landing/afterburner/graphics-cards
+- ***优势***：（相比其他同类型软件的优点）
+- ***安装***：
+- ***设置***：
+  1. **
+- ***使用***：
+## 6.3.Steam++商店加速
+## 6.4.SteamCommunity302商店加速
+## 6.5.MuMu模拟器
+## 6.6.Soundpad音效播放
+- ***名称***：Soundpad
+- ***作用***：按下按键则播放音效
+- ***版本***：4.0.9（编辑日期2025.12.05+停止更新）
+- ***链接***：无
+- ***优势***：（相比其他同类型软件的优点）
+- ***安装***：选择安装路径
+- ***设置***：
+  1. **最新破解**：[破解后可更新至最新版本](https://www.bilibili.com/opus/949287819440816136)
+  2. **音效素材**：[UwUpad](https://uwupad.me/)
+  3. **备份破解**：[版本4.0.3](https://www.bilibili.com/video/BV1o94y157Qy/?spm_id_from=333.1387.homepage.video_card.click&vd_source=c9864b89dea103396edbd37a5b5133af)，[版本3.4.1](https://www.bilibili.com/video/BV1Wc411S7Sm/?vd_source=c9864b89dea103396edbd37a5b5133af)，[版本3.4.1](https://www.bilibili.com/video/BV1rxYJeYEa7/?spm_id_from=333.337.search-card.all.click&vd_source=c9864b89dea103396edbd37a5b5133af)
+- ***使用***：
+## 6.7.Flash Browser浏览器
+- ***名称***：Flash Browser
+- ***作用***：内置Flash，可以游玩Flash小游戏
+- ***版本***：0.8.1（编辑日期2025.12.05+经常更新）
+- ***链接***：https://github.com/radubirsan/FlashBrowser/releases（绿色版：在[B站视频](https://www.bilibili.com/video/BV1kR4y1f7tG/?spm_id_from=333.337.search-card.all.click)的[简介](https://bqnm.lanzouw.com/ivpyJ0g8ggkh)）
+- ***优势***：（相比其他同类型软件的优点）
+- ***安装***：选择安装路径，勾选创建快捷方式
+- ***设置***：
+- ***使用***：
+# 7.新机测试
+## 7.1.CPU-Z处理器信息
+## 7.2.GPU-Z显卡信息
+## 7.3.CrystalDiskInfo硬盘信息
+## 7.4.CrystalDiskMark硬盘速度
+## 7.5.DiskGenius硬盘设置
+## 7.6.Ventoy制作U盘
+## 7.7.WinToGo移动系统
+## 7.8.FixWin修复错误
+## 7.9.Office Tool Plus一键破解
+## 7.10.Kaspersky卡巴杀毒
+# 8.网络云盘
+## 8.1.百度网盘
+## 8.2.阿里云盘
+## 8.3.夸克网盘
+## 8.4.123云盘
+- ***名称***：123云盘
+- ***作用***：
+- ***版本***：（编辑日期2025.12.05+停止更新）
+- ***链接***：
+- ***优势***：（相比其他同类型软件的优点）
+- ***安装***：选择安装路径
+- ***设置***：设置下载路径
+- ***使用***：
+## 8.5.蓝奏云
+## 8.6.迅雷云盘
+## 8.7.UC云盘
+## 8.8.腾讯微云
+## 8.9.坚果云
+
+
+

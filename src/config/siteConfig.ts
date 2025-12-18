@@ -104,7 +104,7 @@ export const siteConfig: SiteConfig = {
       // 桌面背景图片
       desktop: "/assets/images/Alanxxk_material/Mikasa_lost_girls.png",
       // 移动背景图片
-      mobile: "/assets/images/Alanxxk_material/Mikasa_lost_girls.png",
+      mobile: "/assets/images/Alanxxk_material/pixiv_83364535.png",
     },
 
     // Banner模式特有配置
@@ -146,7 +146,7 @@ export const siteConfig: SiteConfig = {
         },
         text: {
           desktop: "Attack on Titan: Lost Girls", // 桌面端要显示的来源文本
-          mobile: "AOT Lost Girls", // 移动端要显示的来源文本
+          mobile: "Pixiv 83364535", // 移动端要显示的来源文本
         },
         url: {
           desktop: "", // 桌面端原始艺术品或艺术家页面的 URL 链接
