@@ -9,7 +9,7 @@ tags: [Blog, Markdown, Grammar, Syntax]    #标签
 category: "前端显示"                  #类别（使用文件夹名称）
 slug: Markdown博客语法                #自定义链接（使用标题名称）
 
-# sourceLink: ""    #原链接
+# sourceLink: ""                    #原链接
 author: Alan_xxk                    #作者
 licenseName: "CC BY-NC-SA 4.0"      #许可证名称
 image: "api"                        #随机封面 “image: ./cover.jpg”

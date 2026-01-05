@@ -4,7 +4,7 @@ description: Windows新电脑必装软件介绍  #描述
 draft: false                        #草稿未发布
 published: 2025-12-05               #发布时间
 updated: 2025-12-05                 #更新时间
-pinned: true                        #置顶
+pinned: false                       #置顶
 tags: [Windows, Software, Crack]    #标签
 category: "推荐软件"                 #类别（使用文件夹名称）
 slug: Windows软件安装                #自定义链接（使用标题名称）
@@ -270,6 +270,13 @@ image: "api"                        #随机封面 “image: ./cover.jpg”
     - Durchblick导播多画面：
 - ***使用***：
 ## 4.5.Potplayer视频播放
+- ***名称***：Potplayer
+- ***作用***：可使用多格式的视频播放器
+- ***版本***：（编辑日期2025.12.05+经常更新）
+- ***链接***：
+- ***优势***：（相比其他同类型软件的优点）
+- ***安装***：
+- ***设置***：在电脑中搜索“默认应用”，设置软件是视频的默认打开方式
 ## 4.6.PureCode视频播放
 ## 4.7.MpvConfig视频播放
 ## 4.8.LXmusic在线音乐

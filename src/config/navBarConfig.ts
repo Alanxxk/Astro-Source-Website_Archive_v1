@@ -39,13 +39,6 @@ const getDynamicNavBarConfig = (): NavBarConfig => {
         external: true,
         icon: "simple-icons:zhihu",
       },
-      //网盘
-      //OneDrive
-      //google drive
-      //永硕
-      //坚果云
-      //腾讯微云
-      //Dropbox
       //外网—学术
       {
         name: "Stack Overflow",
