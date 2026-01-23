@@ -1,11 +1,11 @@
 ---
 title: EPSON打印机的使用方法         #标题
-description: 爱普生L3251型号喷墨墨仓式打印机的使用教程  #描述
+description: 爱普生L3251型号喷墨墨仓式打印机的使用教程   #描述
 draft: false                        #草稿未发布
 published: 2025-12-30               #发布时间
 updated: 2025-12-30                 #更新时间
 pinned: false                       #置顶
-tags: [Print, Software, Crack]    #标签
+tags: [Hardware, Software, Tools, Tutorial]    #标签
 category: "硬件操作"                 #类别（使用文件夹名称）
 slug: EPSON打印机的使用方法           #自定义链接（使用标题名称）
 
