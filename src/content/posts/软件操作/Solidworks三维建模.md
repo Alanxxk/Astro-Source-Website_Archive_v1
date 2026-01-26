@@ -9,7 +9,7 @@ tags: [Windows, Software, Crack]    #标签
 category: "推荐软件"                 #类别（使用文件夹名称）
 slug: Solidworks三维建模                #自定义链接（使用标题名称）
 
-sourceLink: "https://github.com/Alanxxk/Windows_Software_Kit"    #原链接
+#sourceLink: ""    #原链接
 author: Alan_xxk                    #作者
 licenseName: "CC BY-NC-SA 4.0"      #许可证名称
 image: "api"                        #随机封面 “image: ./cover.jpg”
