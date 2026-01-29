@@ -1,7 +1,7 @@
 ---
 title: Recipe日常菜谱                #标题
 description: 个人日常饮食的厨房菜谱   #描述
-draft: false                        #草稿未发布
+draft: true                        #草稿未发布
 published: 2026-01-12               #发布时间
 updated: 2025-01-12                 #更新时间
 pinned: false                       #置顶

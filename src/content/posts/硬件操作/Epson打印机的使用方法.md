@@ -1,6 +1,6 @@
 ---
 title: EPSON打印机的使用方法         #标题
-description: 爱普生L3251型号喷墨墨仓式打印机的使用教程   #描述
+description: 爱普生L3251型号墨仓式喷墨打印机的使用教程   #描述
 draft: false                        #草稿未发布
 published: 2025-12-30               #发布时间
 updated: 2025-12-30                 #更新时间
