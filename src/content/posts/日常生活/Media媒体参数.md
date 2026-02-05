@@ -1,9 +1,9 @@
 ---
 title: Media媒体参数                 #标题
-description: 分析流媒体的不同参数     #描述
+description: 分析流媒体的不同参数（完结）    #描述
 draft: false                        #草稿未发布
 published: 2026-01-22               #发布时间
-updated: 2025-01-28                 #更新时间
+updated: 2026-01-28                 #更新时间
 pinned: false                       #置顶
 tags: [Parameters, Entertainment, Guide] #标签
 category: "日常生活"                 #类别（使用文件夹名称）

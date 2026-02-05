@@ -1,6 +1,6 @@
 ---
 title: DeLiXi手电钻的使用方法        #标题
-description: 德力西DLX-KC01A手电钻的使用教程    #描述
+description: 德力西DLX-KC01A手电钻的使用教程（完结）  #描述
 draft: false                        #草稿未发布
 published: 2026-01-07               #发布时间
 updated: 2026-01-07                 #更新时间
