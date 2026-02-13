@@ -64,48 +64,6 @@ export const musicPlayerConfig: MusicPlayerConfig = {
         lrc: "/assets/music/Alanxxk_material/mp3_lrc/飞机场的1030 - 陶喆.lrc", // 歌词内容，支持 LRC 格式
       },
       {
-        name: "Home",
-        artist: "Halfbrick",
-        url: "/assets/music/Alanxxk_material/mp3_lrc/Home - Halfbrick.mp3",
-        cover: "/assets/music/Alanxxk_material/cover/Jetpack Joyride.jpg",
-        lrc: "/assets/music/Alanxxk_material/mp3_lrc/Home - Halfbrick.lrc", // 歌词内容，支持 LRC 格式
-      },
-      {
-        name: "History of Something",
-        artist: "kokou",
-        url: "/assets/music/Alanxxk_material/mp3_lrc/History of Something-HIST (remixkokou) - kokou.mp3",
-        cover: "/assets/music/Alanxxk_material/cover/HIST.jpg",
-        lrc: "/assets/music/Alanxxk_material/mp3_lrc/History of Something-HIST (remixkokou) - kokou.lrc", // 歌词内容，支持 LRC 格式
-      },
-      {
-        name: "5:00 a.m.(Sunny)",
-        artist: "Nintendo Sound Team",
-        url: "/assets/music/Alanxxk_material/mp3_lrc/500 a.m. (Sunny) (Sunny) - Nintendo Sound Team.mp3",
-        cover: "/assets/music/Alanxxk_material/cover/Animal Crossing New Horizons Original Soundtrack.jpg",
-        lrc: "/assets/music/Alanxxk_material/mp3_lrc/500 a.m. (Sunny) (Sunny) - Nintendo Sound Team.lrc", // 歌词内容，支持 LRC 格式
-      },
-      {
-        name: "5:00 p.m.(Sunny)",
-        artist: "Nintendo Sound Team",
-        url: "/assets/music/Alanxxk_material/mp3_lrc/500 p.m. (Sunny) (Sunny) - Nintendo Sound Team.mp3",
-        cover: "/assets/music/Alanxxk_material/cover/Animal Crossing New Horizons Original Soundtrack.jpg",
-        lrc: "/assets/music/Alanxxk_material/mp3_lrc/500 p.m. (Sunny) (Sunny) - Nintendo Sound Team.lrc", // 歌词内容，支持 LRC 格式
-      },
-      {
-        name: "Stardew Valley Overture",
-        artist: "ConcernedApe",
-        url: "/assets/music/Alanxxk_material/mp3_lrc/Stardew Valley Overture - ConcernedApe.mp3",
-        cover: "/assets/music/Alanxxk_material/cover/Stardew Valley.jpg",
-        lrc: "/assets/music/Alanxxk_material/mp3_lrc/Stardew Valley Overture - ConcernedApe.lrc", // 歌词内容，支持 LRC 格式
-      },
-      {
-        name: "Cloud Country",
-        artist: "ConcernedApe",
-        url: "/assets/music/Alanxxk_material/mp3_lrc/Cloud Country - ConcernedApe.mp3",
-        cover: "/assets/music/Alanxxk_material/cover/Stardew Valley.jpg",
-        lrc: "/assets/music/Alanxxk_material/mp3_lrc/Cloud Country - ConcernedApe.lrc", // 歌词内容，支持 LRC 格式
-      },
-      {
         name: "艾尔文防线",
         artist: "DNF",
         url: "/assets/music/Alanxxk_material/mp3_lrc/艾尔文防线 - forest town - DNF 地下城与勇士.mp3",
@@ -120,6 +78,20 @@ export const musicPlayerConfig: MusicPlayerConfig = {
         lrc: "/assets/music/Alanxxk_material/mp3_lrc/赛丽亚的旅馆 (ACT.5-大转移前) - gate new - DNF 地下城与勇士.lrc", // 歌词内容，支持 LRC 格式
       },
       {
+        name: "Otherside",
+        artist: "Minecraft",
+        url: "/assets/music/Alanxxk_material/mp3_lrc/otherside - Lena Raine、Minecraft.mp3",
+        cover: "/assets/music/Alanxxk_material/cover/Minecraft Caves&Cliffs.jpg",
+        lrc: "/assets/music/Alanxxk_material/mp3_lrc/otherside - Lena Raine、Minecraft.lrc", // 歌词内容，支持 LRC 格式
+      },
+      {
+        name: "5:00 p.m.(Sunny)",
+        artist: "Nintendo Sound Team",
+        url: "/assets/music/Alanxxk_material/mp3_lrc/500 p.m. (Sunny) (Sunny) - Nintendo Sound Team.mp3",
+        cover: "/assets/music/Alanxxk_material/cover/Animal Crossing New Horizons Original Soundtrack.jpg",
+        lrc: "/assets/music/Alanxxk_material/mp3_lrc/500 p.m. (Sunny) (Sunny) - Nintendo Sound Team.lrc", // 歌词内容，支持 LRC 格式
+      },
+      {
         name: "彩虹桥",
         artist: "小k橘子",
         url: "/assets/music/Alanxxk_material/mp3_lrc/彩虹桥 - 小k橘子.mp3",
@@ -132,13 +104,6 @@ export const musicPlayerConfig: MusicPlayerConfig = {
         url: "/assets/music/Alanxxk_material/mp3_lrc/風待ち - 伍伍慧.mp3",
         cover: "/assets/music/Alanxxk_material/cover/Bedtime Story.jpg",
         lrc: "/assets/music/Alanxxk_material/mp3_lrc/風待ち - 伍伍慧.lrc", // 歌词内容，支持 LRC 格式
-      },
-      {
-        name: "Coffee Lofi",
-        artist: "Lofi Kitty",
-        url: "/assets/music/Alanxxk_material/mp3_lrc/YouTube-Lofi Kitty.m4a",
-        cover: "/assets/music/Alanxxk_material/cover/YouTube-Lofi Kitty.png",
-        // lrc: "", // 歌词内容，支持 LRC 格式
       },
     ],
   },

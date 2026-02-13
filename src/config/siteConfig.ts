@@ -145,8 +145,8 @@ export const siteConfig: SiteConfig = {
           mobile: true, // 移动端显示横幅图片来源文本
         },
         text: {
-          desktop: "Attack on Titan: Lost Girls", // 桌面端要显示的来源文本
-          mobile: "Pixiv 83364535", // 移动端要显示的来源文本
+          desktop: "桌面端—Attack on Titan: Lost Girls", // 桌面端要显示的来源文本
+          mobile: "移动端—Pixiv 83364535", // 移动端要显示的来源文本
         },
         url: {
           desktop: "", // 桌面端原始艺术品或艺术家页面的 URL 链接
