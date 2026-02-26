@@ -64,36 +64,43 @@ export const musicPlayerConfig: MusicPlayerConfig = {
         lrc: "/assets/music/Alanxxk_material/mp3_lrc/飞机场的1030 - 陶喆.lrc", // 歌词内容，支持 LRC 格式
       },
       {
+        name: "ミシロタウン",
+        artist: "增田顺一(Pokémon Ruby and Sapphire)",
+        url: "/assets/music/Alanxxk_material/mp3_lrc/ミシロタウン (未白镇) - 増田順一.mp3",
+        cover: "/assets/music/Alanxxk_material/cover/ニンテンドー3DS ポケモン オメガルビー・アルファサファイア スーパーミュージックコンプリート.jpg",
+        lrc: "/assets/music/Alanxxk_material/mp3_lrc/ミシロタウン (未白镇) - 増田順一.lrc", // 歌词内容，支持 LRC 格式
+      },
+      {
         name: "艾尔文防线",
-        artist: "DNF",
+        artist: "Original Sound Track(Dungeon and Fighter)",
         url: "/assets/music/Alanxxk_material/mp3_lrc/艾尔文防线 - forest town - DNF 地下城与勇士.mp3",
         cover: "/assets/music/Alanxxk_material/cover/Dungeon and Fighter.jpg",
         lrc: "/assets/music/Alanxxk_material/mp3_lrc/艾尔文防线 - forest town - DNF 地下城与勇士.lrc", // 歌词内容，支持 LRC 格式
       },
       {
         name: "赛丽亚的旅馆ACT.5",
-        artist: "DNF",
+        artist: "Original Sound Track(Dungeon and Fighter)",
         url: "/assets/music/Alanxxk_material/mp3_lrc/赛丽亚的旅馆 (ACT.5-大转移前) - gate new - DNF 地下城与勇士.mp3",
         cover: "/assets/music/Alanxxk_material/cover/Dungeon and Fighter.jpg",
         lrc: "/assets/music/Alanxxk_material/mp3_lrc/赛丽亚的旅馆 (ACT.5-大转移前) - gate new - DNF 地下城与勇士.lrc", // 歌词内容，支持 LRC 格式
       },
       {
         name: "Otherside",
-        artist: "Minecraft",
+        artist: "Lena Raine(Minecraft)",
         url: "/assets/music/Alanxxk_material/mp3_lrc/otherside - Lena Raine、Minecraft.mp3",
         cover: "/assets/music/Alanxxk_material/cover/Minecraft Caves&Cliffs.jpg",
         lrc: "/assets/music/Alanxxk_material/mp3_lrc/otherside - Lena Raine、Minecraft.lrc", // 歌词内容，支持 LRC 格式
       },
       {
         name: "5:00 p.m.(Sunny)",
-        artist: "Nintendo Sound Team",
+        artist: "Nintendo Sound Team(Animal Crossing:NH)",
         url: "/assets/music/Alanxxk_material/mp3_lrc/500 p.m. (Sunny) (Sunny) - Nintendo Sound Team.mp3",
         cover: "/assets/music/Alanxxk_material/cover/Animal Crossing New Horizons Original Soundtrack.jpg",
         lrc: "/assets/music/Alanxxk_material/mp3_lrc/500 p.m. (Sunny) (Sunny) - Nintendo Sound Team.lrc", // 歌词内容，支持 LRC 格式
       },
       {
         name: "彩虹桥",
-        artist: "小k橘子",
+        artist: "小k橘子(DDTank)",
         url: "/assets/music/Alanxxk_material/mp3_lrc/彩虹桥 - 小k橘子.mp3",
         cover: "/assets/music/Alanxxk_material/cover/弹弹堂.png",
         // lrc: "", // 歌词内容，支持 LRC 格式
