@@ -25,7 +25,7 @@ image: "api"                        #随机封面 “image: ./cover.jpg”
 1. 分辨率：画面的长宽像素个数
    - 7680×4320(8K) > 5120×2880(5K) > 3840×2160(4K) > 2560×1440(2K) > 1920×1080(FHD) > 1280×720(HD) > 720×480(SD) > 640x360(nHD) > 320x240(QVGA)
 2. 编码：压缩算法，影响画质和文件大小
-   - 相机原图RAW、DNG、NEF、ARW、CR2、CR3 > 原图BMP、TIFF > 无损压缩PNG、WebP > 有损压缩JPEG/JPG、HEIC、AVIF > 特殊动图GIF
+   - 相机原图RAW、DNG、NEF、ARW、CR2、CR3 > 原图BMP、TIFF > 无损压缩PNG、WebP > 有损压缩JPG（全称JPEG）、HEIC、AVIF > 特殊动图GIF
 3. 色域：显示颜色范围
    - ProPhoto-RGB(专业摄影/超宽色域) > Rec.2020(UHD/HDR标准) > DCI-P3(电影标准) > Adobe-RGB(摄影/印刷) > ACEScg(影视后期) > sRGB(普通显示/网络) ≈ Rec.709(HDTV标准)
 4. 色深：颜色平滑度

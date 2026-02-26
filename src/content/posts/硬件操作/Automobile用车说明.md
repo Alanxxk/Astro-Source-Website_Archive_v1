@@ -1,7 +1,7 @@
 ---
 title: Automobile用车说明            #标题
 description: 根据汽车说明书来编写车辆使用指南   #描述
-draft: true                         #草稿未发布
+draft: false                         #草稿未发布
 published: 2026-02-03               #发布时间
 updated: 2026-02-03                 #更新时间
 pinned: false                       #置顶
