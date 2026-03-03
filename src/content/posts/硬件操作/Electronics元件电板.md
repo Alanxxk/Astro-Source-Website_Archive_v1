@@ -1,13 +1,13 @@
 ---
-title: 元件电板               #标题
+title: Electronics元件电板           #标题
 description: 分析不同工具与耗材       #描述
 draft: false                        #草稿未发布
 published: 2026-03-02               #发布时间
-updated: 2025-03-02                 #更新时间
-pinned: true                       #置顶
+updated: 2025-03-03                 #更新时间
+pinned: false                       #置顶
 tags: [Hardware, Software, Tools, Guide]  #标签
 category: "硬件操作"                 #类别（使用文件夹名称）
-slug: 元件电板                 #自定义链接（使用标题名称）
+slug: Electronics元件电板            #自定义链接（使用标题名称）
 
 # sourceLink: ""                    #原链接
 author: Alan_xxk                    #作者
