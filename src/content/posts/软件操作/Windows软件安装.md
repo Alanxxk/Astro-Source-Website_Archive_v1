@@ -34,7 +34,7 @@ image: "api"                        #随机封面 “image: ./cover.jpg”
   - [1.13.Folo消息聚合](#113folo消息聚合)
 - [2.翻墙软件](#2翻墙软件)
   - [2.1.Clash for Windows](#21clash-for-windows)
-  - [2.2.Clash Meta](#22clash-meta)
+  - [2.2.Clash Meta / Mihomo Party](#22clash-meta--mihomo-party)
   - [2.3.Clash Verge](#23clash-verge)
   - [2.4.V2rayN](#24v2rayn)
 - [3.学习辅助](#3学习辅助)
@@ -99,6 +99,20 @@ image: "api"                        #随机封面 “image: ./cover.jpg”
   - [8.7.UC云盘](#87uc云盘)
   - [8.8.腾讯微云](#88腾讯微云)
   - [8.9.坚果云](#89坚果云)
+- [9.工程软件](#9工程软件)
+  - [9.1.Solidworks三维建模](#91solidworks三维建模)
+  - [9.2.Workbench有限元分析](#92workbench有限元分析)
+  - [9.3.Matlab数学分析](#93matlab数学分析)
+  - [9.4.Anaconda包管理器](#94anaconda包管理器)
+  - [9.5.Keil5电路控制](#95keil5电路控制)
+  - [9.6.STM32CubeMX电控芯片配置](#96stm32cubemx电控芯片配置)
+  - [9.7.AltiumDesigner电路板绘制](#97altiumdesigner电路板绘制)
+  - [9.8.立创EDA+嘉立创下单助手](#98立创eda嘉立创下单助手)
+  - [9.9.VScode代码编辑器](#99vscode代码编辑器)
+  - [9.10.Clion代码编辑器](#910clion代码编辑器)
+  - [9.11.VMwareWorkstation虚拟机](#911vmwareworkstation虚拟机)
+  - [9.12.GXworks2梯形图PLC](#912gxworks2梯形图plc)
+  - [9.13.ideaMaker3D打印机切片](#913ideamaker3d打印机切片)
 
 # 1.功能增强
 ## 1.1.HiBit Uninstaller卸载软件
@@ -150,7 +164,7 @@ image: "api"                        #随机封面 “image: ./cover.jpg”
 - ***使用***：
 # 2.翻墙软件
 ## 2.1.Clash for Windows
-## 2.2.Clash Meta
+## 2.2.Clash Meta / Mihomo Party
 ## 2.3.Clash Verge
 ## 2.4.V2rayN
 # 3.学习辅助
@@ -427,5 +441,18 @@ image: "api"                        #随机封面 “image: ./cover.jpg”
 ## 8.8.腾讯微云
 ## 8.9.坚果云
 
-
+# 9.工程软件
+## 9.1.Solidworks三维建模
+## 9.2.Workbench有限元分析
+## 9.3.Matlab数学分析
+## 9.4.Anaconda包管理器
+## 9.5.Keil5电路控制
+## 9.6.STM32CubeMX电控芯片配置
+## 9.7.AltiumDesigner电路板绘制
+## 9.8.立创EDA+嘉立创下单助手
+## 9.9.VScode代码编辑器
+## 9.10.Clion代码编辑器
+## 9.11.VMwareWorkstation虚拟机
+## 9.12.GXworks2梯形图PLC
+## 9.13.ideaMaker3D打印机切片
 
