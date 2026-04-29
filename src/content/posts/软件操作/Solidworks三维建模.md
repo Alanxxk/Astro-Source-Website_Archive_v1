@@ -462,7 +462,8 @@ image: "api"                        #随机封面 “image: ./cover.jpg”
 2. 网站[溪风博客solidworks](https://xifengboke.com/)
 3. 网站[大工程师官网(不再提供下载大工程师)](https://www.dagongchengshi.com/)
 4. 网站[大国工匠官网](https://www.global-dsc.cn/dggj)
-5. 教程[大国工匠生成零件](https://www.bilibili.com/video/BV11Nb6zVEMZ/?spm_id_from=333.1007.top_right_bar_window_default_collection.content.click)
+5. 教程[大国工匠生成和配合零件](https://www.bilibili.com/video/BV11Nb6zVEMZ/?spm_id_from=333.1007.top_right_bar_window_default_collection.content.click)
+6. 教程[大国工匠生成同步带轮-1](https://www.bilibili.com/video/BV1GnY4z8EFy/?spm_id_from=333.337.search-card.all.click&vd_source=c9864b89dea103396edbd37a5b5133af)，或[大国工匠生成同步带轮-2](https://www.bilibili.com/video/BV1kL411V7UX/?spm_id_from=333.337.search-card.all.click&vd_source=c9864b89dea103396edbd37a5b5133af)，或[大国工匠生成同步带轮-3](https://www.bilibili.com/video/BV1KPJNzRESJ/?spm_id_from=333.337.search-card.all.click&vd_source=c9864b89dea103396edbd37a5b5133af)。[大国工匠配合同步带轮-1](https://www.bilibili.com/video/BV1sBCnYSEew/?spm_id_from=333.337.search-card.all.click&vd_source=c9864b89dea103396edbd37a5b5133af)，或[大国工匠配合同步带轮-2](https://www.bilibili.com/video/BV1HdsEeyEJV/?spm_id_from=333.337.search-card.all.click&vd_source=c9864b89dea103396edbd37a5b5133af)，或[大国工匠配合同步带轮-3](https://www.bilibili.com/video/BV1H2jAziELW/?spm_id_from=333.337.search-card.all.click&vd_source=c9864b89dea103396edbd37a5b5133af)
 ## 3.2.插件/软件
 1. 迈迪（≈2008）：离线使用，每次生成零件会弹出推荐购买注册，直接生成的零件偶尔报错（可能生成的模型只适合低版本），不推荐使用
 2. 今日制造（≈2020）：（需要联网登录，每日领取积分换模型）破解版离线使用，自动操控软件绘制零件，但是不能联网使用外购件
@@ -506,7 +507,7 @@ image: "api"                        #随机封面 “image: ./cover.jpg”
             5. 删除垂直配合和距离配合
          - 运配：选择齿条的分度线和齿轮的分度圆进行机械配合里的齿条小齿轮配合，拖动运动若反向则撤回并勾选反向
    - 链轮链条：
-      1. 操作：
+      1. 操作：（小链轮需要在通用件寻找，大链轮可以用插件生成）
          - 设计参数：输入主动轮和从动轮的齿数，记住分度圆直径
          - 生成模型：点击生成链节，选择主动轮点击生成链轮和选择从动轮点击生成链轮
          - 链条保存：删除1个内链节保存，撤回后删除2个外链节保存
@@ -514,7 +515,7 @@ image: "api"                        #随机封面 “image: ./cover.jpg”
          - 链轮可以添加圆弧槽镂空
       3. 配合
          - 零件：
-            1. 链轮绘圆：在链轮的右视基准面绘制分度圆（会自动吸附而且可以对比之前插件显示的分度圆直径）
+            1. 链轮绘圆：在链轮的右视基准面绘制分度圆(=链轮凹圆的圆心)（会自动吸附而且可以对比之前插件显示的分度圆直径）
             2. 链节绘线：在内外链节的前视基准面的两圆之间绘制分度线
          - 固配：
             1. 链轮：主从链轮距离要与插件的理论中心距一致
@@ -524,11 +525,28 @@ image: "api"                        #随机封面 “image: ./cover.jpg”
          - 运配：
             1. 隐藏链位的草图
             2. 选择外链节的分度线和链轮的分度圆进行机械配合里的齿条小齿轮配合，拖动运动若反向则撤回并勾选反向
-   - 同步带轮：
+   - 皮带带轮：
       1. 类型
          - V带
          - 平带
-         - 同步带
+         - 同步带：
+            1. 设计计算
+               - 工况系数+传递功率：选择工况，输入功率(单位千瓦kw)（公式P=kFv/η=功率=安全系数×(摩擦力+张紧力+牛二力)×速度÷传动效率,一般设定张紧力=摩擦力÷3,F=ma,k≈2,η≈0.9），自动计算出设计功率
+               - 带轮转速：输入两轮转速得到传动比
+               - 齿形：选择梯形齿/圆弧齿(推荐)
+               - 带型+节距：一般根据设计功率和转速自动选择合适的带型，带型确定节距
+               - 带轮齿数+带轮节圆直径：自动生成小带轮最小齿数，输入带轮齿数需要>=最小齿数，自动生成带轮的分度圆直径
+               - 轴间距+皮带参数：输入大概轴间距，节线长选择带型和闭合同步带长度，自动计算出实际轴间距
+               - 啮合齿数：查看同步带与同步轮的啮合齿数、啮合齿数系数和啮合包角角度
+               - 基本额定功率+带宽：选择基本额定功率，自动计算出带宽，选择标准带宽>计算带宽
+               - 轴上力：进入查询界面等待自动计算出参数，返回原界面就能自动得到轴上力
+            2. 带轮参数：
+               - 参数：默认
+               - 生成：选择生成皮带
+            3. 小大带轮设计：
+               - 结构：实心，孔板，辐板
+               - 参数：更改内孔宽d、凸台宽d1、总高L
+               - 生成：选择生成带轮
          - 多楔带
       2. 参数
          - 设计计算：基本参数大带轮基准直径
