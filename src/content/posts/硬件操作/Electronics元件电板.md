@@ -330,6 +330,8 @@ image: "api"                        #随机封面 “image: ./cover.jpg”
       9. 配置CAN：在连接外设的CAN勾选激活，根据CAN设备配置相应波特率(根据公式配置(RSJW越大越不容易出错但速度变慢,一般选1)(其他参数有设置先后顺序))，使能AR自动重传和TFP发送队列优先级，勾选RX中断
       10. 保存项目：点击项目管理，输入项目名称，英文路径文件夹，选择Cmake编译（使用Keil则使用MDK-ARM编译），选择下载已配置的库文件，勾选把功能代码分散在不同文件中，生成代码
       11. 重复配置：在生成的项目中，打开.ioc文件可以重复配置项目
+   - Keil5设置：
+      1. 
    - VScode配置：
       1. CubeMX后：点击左下角的Debug/<kbd>CTRL</kbd>+<kbd>Shift</kbd>+<kbd>P</kbd>选择Cmake，选择Debug，按下F7按键编译
       2. VScode插件：cmake，ninja，gcc/g++，openocd
