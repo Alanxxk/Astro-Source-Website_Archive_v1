@@ -9,9 +9,9 @@ export const siteConfig: SiteConfig = {
   title: "Alanxxk'Blog",
   subtitle: "记录与分享知识",
   site_url: 
-            // "https://alanxxk-blog-archive-v1.netlify.app/", // Netlify
+            "https://alanxxk-blog-archive-v1.netlify.app/", // Netlify
             // "https://alanxxk-blog.vercel.app/", // Vercel
-            "https://alanxxk.github.io/Astro-Source-Website_Archive_v1/", // GitHub
+            // "https://alanxxk.github.io/Astro-Source-Website_Archive_v1/", // GitHub
             // "https://firefly.cuteleaf.cn",// 默认
   description:
     "这是Alanxxk的个人博客网站，欢迎各位浏览访问，可以从博客中学习到知识是我的荣幸，能给我更多评论反馈我更甚是感激，如果有能力还可以进行赞助。",
